@@ -99,6 +99,13 @@ body {
         }
     }
 
+    .post-hero {
+        .post-hero-boxes:hover {
+            transform: scale(1.11);
+            transition: 0.2s transform;
+        }
+    }
+
     .optimising {
         margin-top: 6rem;
 
@@ -119,6 +126,11 @@ body {
             p {
                 font-size: 0.7rem;
             }
+        }
+
+        .optimising-inner-containers:hover {
+            transform: scale(1.11);
+            transition: 0.2s transform;
         }
     }
 
